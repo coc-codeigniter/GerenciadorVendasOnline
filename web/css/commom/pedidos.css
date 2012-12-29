@@ -1,0 +1,187 @@
+#ContainerPedido {
+background:#fff;
+margin-top:45px;
+padding:10px;
+margin-bottom:20px;
+}
+
+#ContainerPedido h5 {
+font-size:12px;
+}
+
+.breadcrumb {
+border:1px solid #d0d0d0;
+margin-bottom:5px;
+margin-top:10px;
+margin-left:5px;
+width:899px;
+}
+
+#ContainerPedido .table tbody {
+font-size:11px;
+text-transform:uppercase;
+padding:0px;
+}
+
+.loading {
+position:absolute;
+right:5px;
+top:0px;
+display:block;
+background:url( '../../images/loading.gif ') no-repeat;
+height:16px;
+width:16px;
+margin-top:2px;
+margin-right:0px;
+}
+
+.OptionsPayments li {
+font-size:11px;
+font-weight:bold;
+padding:3px;
+margin-right:0px;
+width:95%;
+}
+
+#containerPayment {
+}
+
+.lblOptionPagamento,.lblOptionEntrega {
+float:left;
+width:148px;
+background:#f0f0f0;
+border:1px solid #ddd;
+margin:1px 2px 1px 2px;
+line-height:20px;
+clear:both;
+}
+
+.chkEnderecoEntregaTrue {
+margin:1px 2px 1px 2px;
+line-height:20px;
+}
+
+.chkEnderecoEntregaTrue input [type="checkbox" ] {
+position:relative;
+top:-3px;
+margin-right:5px;
+}
+
+.lblOptionPagamento input [type="radio" ],.lblOptionEntrega input [type="radio" ] {
+margin-right:5px;
+font-weight:900;
+}
+
+.paymentSelectActive,.entregaSelectActive {
+background:#8B8989;
+color:#fff;
+border:1px solid #999;
+}
+
+#minMessage {
+width:400px;
+}
+
+.loadSendConfirmaPagamento {
+height:32px;
+background:url( '../../images/jquery.pedidos/loading.gif ')no-repeat left;
+text-indent:40px;
+margin-top:10px;
+}
+
+.loadSendConfirmaPagamentoResponse {
+height:32px;
+margin-top:10px;
+font-size:11px;
+font-weight:bold;
+}
+
+.loadSendConfirmaPagamentoResponse .icon-info-sign {
+margin-right:5px;
+}
+
+input.inputRequired {
+border:1px solid red;
+background:#FFE4E1;
+}
+
+.messageRequired {
+position:absolute;
+background:#FF0000;
+border:1px solid #CD0000;
+padding:2px 5px;
+color:#fff;
+margin-top:-60px;
+font-size:10px;
+border-radius:3px;
+-moz-border-radius:3px;
+}
+
+.containerLoad{
+    width: 100px;
+}
+.jploading {
+position:absolute;
+right:5px;
+top:0px;
+display:block;
+background:url( '../../images/jploading.gif') no-repeat;
+height:16px;
+width:16px;
+margin-top:2px;
+margin-right:0px;
+margin-left: 10px;
+}
+
+.editable{
+    
+    position: relative;
+   
+   
+}
+.editable span{
+     
+     width: 30px;
+     display: inline-block;
+}
+.jEditaRow{
+    position: absolute;
+    margin-left: 50px;
+}
+.jcancelar{
+    
+    position: absolute;
+    margin-left: 45px;
+   
+}
+.jsave{
+    
+    position: absolute;
+   margin-left: 62px;
+}
+
+.icon-red,
+.nav > .active > a > [class^="icon-"],
+.nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"] {
+  background-image: url("../../images/glyphicons-halflings-red.png");
+}
+.icon-green,
+.nav > .active > a > [class^="icon-"],
+.nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"] {
+  background-image: url("../../images/glyphicons-halflings-green.png");
+}
+
+.jrow.aprovado{
+    background:#E0FFFF;
+}
+.jrow.reprovado{
+    background:#F5DEB3;
+}

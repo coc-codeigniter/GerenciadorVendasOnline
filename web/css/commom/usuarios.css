@@ -1,0 +1,80 @@
+#ContainerCliente{
+    margin-top:50px;
+    
+}
+.mytable{ background: #fff;}
+#ContainerCliente .breadcrumb{border:1px solid #ccc;}
+.mainBox{
+    position: relative;
+}
+.novoClienteBoxOptions.hide{
+    display: none;
+}
+.btn-cliente{
+    margin-top: 25px;
+}
+.error{
+    font-size: 11px;
+    color:red;
+}
+input.error {
+    background: #FFEC8B;
+}
+.formUsuarios{
+    position: relative;
+}
+.formClientes.hide{
+    display: none;
+    
+}
+/*
+.formClientes.show{
+    display: none;
+    
+}*/
+.showOptionNovoCliente.hide{
+    display: none;
+}
+.pessoafisica.fhide,
+.pessoajuridica.jhide{
+    display: none;
+}
+.pessoafisica h4, .pessoajuridica h4{ margin-left: 20px;}
+.novoClienteBoxOptions{
+    width: 300px;
+    background: #f0f0f0;
+    border: 2px solid #b63954;
+    margin: 20% auto;
+    text-align: center;
+    padding: 20px;
+}
+.showOptionNovoCliente{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    font-size: 11px;
+}
+.boxCepCliente{
+    position: relative;
+}
+.jploading {
+position:absolute;
+right:5px;
+top:30px;
+display:block;
+background:url( '../../images/jploading.gif') no-repeat;
+height:16px;
+width:16px;
+margin-top:2px;
+margin-right:0px;
+margin-left: 10px;
+}
+
+.boxMessage{
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    left:20px;
+    bottom: 30px;
+    width: 80%;
+}

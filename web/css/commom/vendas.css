@@ -1,0 +1,139 @@
+#ContainerProdutos{
+  background: #fff;
+  padding: 45px 0px 0px 30px;
+}
+#ContainerProdutos h5{
+    
+    font-size: 12px;
+}
+#ContainerProdutos .produto ,#ContainerProdutos .noproduto{
+    padding: 0px;
+    margin: 3px;
+    border:1px solid #f0f0f0;
+    text-align: center;
+    height: 195px;
+    width: 150px;
+    position: relative;
+    
+}
+#ContainerBread{
+    padding: 0px;
+}
+.breadcrumb{
+    border:1px solid #d0d0d0;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: -15px;
+    width: 910px;
+}
+.carrinho{
+    margin-top: 3px;
+    
+}
+.carrinho a {
+    
+    z-index: 1000;
+}
+.addLink{
+    float: left;
+    margin: 2px 2px 2px 5px;
+    }
+ .toolscart{
+    position: absolute;
+    bottom: 2px;
+ }
+ .toolscart > .qdt{
+    float: left;
+    width: 45px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-left: 5px;
+ }
+ .toolscart > span{
+    float: left;
+    font-size: 10px;
+    margin-left: 5px;
+   
+ }   
+ .bt_cart{
+    position: fixed;
+    top: 10px;
+    right: 12%;
+    line-height: 15px;
+    z-index: 10001;
+    width: 150px;
+    text-align: center;
+    
+}
+.bt_cart > a{
+    color:#fff;
+}
+.infoCountItens{
+    display: block;
+    font-size: 10px;
+    width: 100%;
+     color:#5ce7ec;
+    
+}
+
+.wraperCart{
+    color:#fff;
+    background: #444;
+    position: absolute;
+    z-index:10000;
+    padding: 10px;
+    top:0px;
+    right: 0px;
+    left: 0px;
+    min-height: 30px;
+    border-bottom: 2px solid #999;
+    
+}
+.wraperCart .well{
+    
+    background: #888;
+}
+.wraperCart h5 .cesta-icon{
+    margin-right: 10px;
+}
+
+.bt-close{
+    position: absolute;
+    right: 10px;
+    bottom:5px;
+}
+.pro-price{
+    
+    position: absolute;
+    bottom:25px;
+    right:3px;
+    font-size: 12px;
+}
+#tblCart{
+font-size: 11px;    
+}
+.cesta-icon{
+    display: block;
+    float: left;
+    background: url('../../images/icon-cesta.png') no-repeat;
+    height: 30px;
+    width: 30px;
+}
+.esgotadoLabel{
+    position: absolute ;
+    bottom: 5px;
+    left: 20%;
+    right: 20%;
+}
+.cartOptions{
+    width: 95%;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+}
+.cartOptions select{ width: 100%;}
+#ClienteDataLabel{
+    margin-left: 20px;
+}
+#delaySendPedido{  position: absolute;}

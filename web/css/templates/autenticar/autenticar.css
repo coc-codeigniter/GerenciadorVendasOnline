@@ -1,0 +1,24 @@
+body{
+    background: url('images/base-noise.jpg');
+}
+
+#Autenticar{
+    width: 360px;
+    display: none;
+}
+#Autenticar .well{
+    padding:20px;
+    background: #fff;
+    border-color:#ddd;
+}
+#Autenticar strong{
+    margin-left: 10px;
+}
+#Autenticar .pull-right{ margin-top: 10px ;}
+.titulo{text-align: center; margin-bottom: 10px;}
+.password{ margin-top: 15px;}
+.avisos{color:red; position:absolute; font-size: 11px; padding-left: 5px;}
+.loading{ position: absolute; right:5px; top:10px; display: block;background: url('images/loading.gif') no-repeat;  height: 16px;width: 16px;margin-top: 2px;margin-right: 0px;}
+.login-error{position: absolute; right:5px; top:10px; display: block; height: 16px;width: 16px; padding: 0px; margin-top: 2px;margin-right: 0px;}
+.login-success{position: absolute; right:5px; top:10px; display: block; height: 16px;width: 16px; padding: 0px; margin-top: 2px; margin-right: 0px;}
+#loader{position: relative;}

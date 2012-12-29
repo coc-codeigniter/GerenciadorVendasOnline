@@ -1,0 +1,38 @@
+#ListaModulos{
+    width: 600px;
+    height: 400px;
+    border:1px solid red;
+    padding: 10px;
+    background-color: #fff;
+}
+li{
+    list-style: none;
+}
+#ListaModulos .page-header{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.modulo{padding: 7px; font-size: 11px; text-align: center;}
+#ListaModulos .novidades-titulo{ color:#b63954; margin-top: 10px;}
+
+.itemProdutoDestaque{
+    position: relative;
+    padding: 10px;
+    width: 120px;
+    border:1px solid #f0f0f0;
+    text-align: center;
+}
+.produtoDestaque{
+    position: absolute;
+    font-size: 10px;
+    top:-5px;
+    left:-5px;
+}
+.destaqueDescription strong {
+   font-size: 12px;
+   
+}
+.destaqueDescription p{
+ font-size: 11px;    
+ line-height: 12px;
+}
